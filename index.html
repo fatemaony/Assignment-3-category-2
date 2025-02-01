@@ -50,7 +50,7 @@
 
    <!-- menu -->
     <div class="navbar hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 font-semibold">
         <li><a>Product</a></li>
         <li><a>Services</a></li>
         <li><a>Contact us</a></li>
@@ -153,7 +153,7 @@
             <button class="btn bg-white">Buy Now</button>
             <!-- image offer -->
             <div class="absolute bottom-0 right-0 flex justify-end w-full">
-              <img class="w-3/5 lg:mx-0" src="c2-assets/vegetable-offer.png" alt="">
+              <img class="w-52 lg:mx-0" src="c2-assets/vegetable-offer.png" alt="">
             </div>
           </div>
           <!-- product card -->
@@ -255,12 +255,12 @@
 
 
      <!-- offers -->
-      <section class="lg:mx-24 mx-3 mt-24 mb-24 space-y-4">
+      <section class="lg:mx-24  mx-3 mt-24 mb-24 space-y-4">
         <h1 class="text-[#179800] text-3xl font-bold">Arrival & Offers</h1>
-        <div class="flex flex-col lg:flex-row gap-3">
+        <div class="grid sm:grid sm:grid-cols-2 gap-4 sm:[grid-template-columns:2fr_1.5fr]">
 
           <!-- first card -->
-          <div class="bg-[#115414] rounded-2xl space-y-3 pt-5 px-5 flex flex-col justify-between">
+          <div class="bg-[#115414] rounded-2xl space-y-3 py-5 px-5 flex flex-col justify-between ">
             <div class="flex flex-row justify-between items-center">
               <div class="text-start space-y-4">
                 <img src="c2-assets/dawat-logo.png" alt="">
@@ -275,11 +275,11 @@
           
             <!-- second card -->
 
-            <div class="bg-[#102861] rounded-2xl space-y-2 px-5 pt-2 lg:w-auto flex flex-col justify-between">
+            <div class="bg-[#102861] rounded-2xl space-y-3 px-5 py-5 lg:w-auto flex flex-col justify-between">
               <div class="flex flex-row justify-between items-center">
-                <div class="lg:space-y-3 h-9/12 text-start">
+                <div class="lg:space-y-4 h-9/12 text-start">
                   <img class="h-9/12" src="c2-assets/india-gate-logo.png" alt="">
-                  <button class="btn bg-[#2A4D97] border-0 text-white font-normal text-[12px] lg:text-sm" id="font-family-poppins">World’s No.1 Rice</button>
+                  <button class="btn bg-[#2A4D97] border-0 text-white font-normal text-sm lg:text-xl" id="font-family-poppins">World’s No.1 Rice</button>
                   <h1 class="text-white text-xl lg:text-2xl ">UP to <span class="font-extrabold">40% OFF</span></h1>
                 </div>  
                 <div class="w-1/2 h-48 lg:h-56 flex items-center justify-center align-middle lg:w-auto">
@@ -311,17 +311,17 @@
   </main>
   <footer class=" relative my-12">
     <!-- grocery news -->
-  <section class="lg:mx-36 mx-6 top-96 lg:top-60 z-10 absolute transform translate-y-[-50%]">
-    <div class="flex flex-col justify-between lg:flex-row bg-[#EFEBE3] rounded-xl">
-      <div class="py-10 lg:w-1/2  flex align-middle
+  <section class=" left-[50%] w-4/5 top-96 lg:top-60 z-10  absolute  translate-y-[-50%] translate-x-[-50%]">
+    <div class="flex flex-col p-5 px-18 justify-between lg:flex-row bg-[#EFEBE3] rounded-xl">
+      <div class="py-10   flex align-middle
       items-center justify-center">
         <img class="flex items-center " src="c2-assets/vegetable-busket.png" alt="">
       </div>
       <div class="px-5 lg:w-1/2 space-y-4 flex flex-col lg:justify-center lg:items-start items-center">
         <h1 class="text-2xl text-center lg:text-start font-bold text-[#179800]">Get Grocery News!</h1>
         <p class="text-xl text-center lg:text-start">Exclusive training tips, ticks, product deals and more.</p>
-       <div class="space-y-4">
-        <input class="p-5 rounded-md  w-full" placeholder="Enter email...." type="email" name="" id="">
+       <div class="space-y-4 w-full">
+        <input class="p-4 rounded-md w-full" placeholder="Enter email...." type="email" name="" id="">
        </div>
        <div class="pb-5"><button class="btn bg-[#179800] text-white">Subscribe</button></div>
       </div>
